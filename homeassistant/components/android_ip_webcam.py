@@ -48,6 +48,7 @@ SIGNAL_UPDATE_DATA = 'android_ip_webcam_update'
 KEY_MAP = {
     'audio_connections': 'Audio Connections',
     'adet_limit': 'Audio Trigger Limit',
+    'ambient_temp': 'Ambient Temperature',
     'antibanding': 'Anti-banding',
     'audio_only': 'Audio Only',
     'battery_level': 'Battery Level',
@@ -63,6 +64,7 @@ KEY_MAP = {
     'focus_region': 'Focus Region',
     'focusmode': 'Focus Mode',
     'gps_active': 'GPS Active',
+    'humidity': 'Humidity',
     'idle': 'Idle',
     'ip_address': 'IPv4 Address',
     'ipv6_address': 'IPv6 Address',
@@ -126,8 +128,8 @@ ICON_MAP = {
 SWITCHES = ['exposure_lock', 'ffc', 'focus', 'gps_active', 'night_vision',
             'overlay', 'torch', 'whitebalance_lock', 'video_recording']
 
-SENSORS = ['audio_connections', 'battery_level', 'battery_temp',
-           'battery_voltage', 'light', 'motion', 'pressure', 'proximity',
+SENSORS = ['ambient_temp', 'audio_connections', 'battery_level', 'battery_temp',
+           'battery_voltage', 'humidity', 'light', 'motion', 'pressure', 'proximity',
            'sound', 'video_connections']
 
 CONFIG_SCHEMA = vol.Schema({
